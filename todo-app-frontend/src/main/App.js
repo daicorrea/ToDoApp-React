@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 //import logo from './logo.svg';
 //import './App.css';
 import Todo from '../container/todo';
+import About from '../container/about';
 import Menu from '../component/menu';
 
 export default props => (
