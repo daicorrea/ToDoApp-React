@@ -5,21 +5,17 @@ import Todo from '../container/todo';
 import About from '../container/about';
 import Menu from '../component/menu';
 
-export default props => (
-  <div className='container'>
-    <Menu />
-    <Todo />
-  </div>
-);
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-       
+      <div className='container'>
+        <Menu />
+        <Todo />
+        <About />
       </div>
     );
   }
 }
 
-//export default App;
+export default App;
